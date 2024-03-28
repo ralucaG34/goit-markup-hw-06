@@ -381,7 +381,7 @@ button:hover {
 
   width: 264px;
   height: 380px;
-  border: 1px solid var(--accent-color-filters);
+  border: 1px solid var(--accent-color);
   padding: 0 0 32px 0;
   text-align: center;
   background-color: var(--primary-color);
@@ -393,7 +393,7 @@ button:hover {
 }
 
 .project-card {
-  border: 1px solid #e7e9fc;
+  border: 1px;color:  #e7e9fc;
 }
 
 .body-team {
@@ -617,9 +617,10 @@ button:hover {
   height: 16px;
 }
 .icon svg { 
-  color: var(--light-slate);
+  color: var(--light-slate); 
     transition: color var(--transition);
 }
+
 .icon:hover,
 .icon:active {
   background-color: var(--iris);
@@ -630,7 +631,7 @@ button:hover {
 .icons-list .icon {
   width: 44px;
   height: 44px;
-  color: #434455;
+  color: #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
