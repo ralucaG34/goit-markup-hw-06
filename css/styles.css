@@ -362,16 +362,20 @@ button:hover {
 
 .our-team-card {
   width: 1200px;
-  height: 732px;
-}
+  height: 415px;
+ border: 3px solid var(--cornflower);}
+    
 
 .card-set {
   display: flex;
-  align-items: center;
-  gap: 24px;
-  flex: 1;
-  padding: 0;
-}
+    /* list-style: none; */
+    < nu ai nevoie justify-content: center;
+    gap: 24px;
+    width: 264px;
+    height: 380px;
+    /* border: 1px solid var(--accent-color); */
+
+  }
 
 .team-card {
   display: flex;
@@ -420,13 +424,14 @@ button:hover {
 }
 
 .our-team-card h3 {
-  font-size: 20px;
+font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--accent-color-text);
-  margin-top: 32px;
+  margin-top: 6px;
+
 }
 
 .word:hover,
@@ -612,13 +617,21 @@ button:hover {
    
 }
 
+
 .icons-list .icon svg {
-  width: 16px;
-  height: 16px;
+    width: 24px;
+height: 24px; }
+
+  .icons-list{gap: 10px;
+  
 }
 .icon svg { 
   color: var(--light-slate); 
     transition: color var(--transition);
+    }
+.icon svg:hover,
+.icon svg:active{color:#fff;
+
 }
 
 .icon:hover,
@@ -636,7 +649,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-    transition: color var(--transition);
+    transition: color var(--transition); 
 }
 
 .features-icons {
@@ -667,8 +680,8 @@ button:hover {
   width: 168px;
   height: 88px;
   background: var(--white);
-  border: 1px solid var(--light-slate);
-  border-radius: 4px;
+  border: 1px solid var(--background-color);
+  border-radius: 4px,
   display: flex;
   justify-content: center;
   align-items: center;
